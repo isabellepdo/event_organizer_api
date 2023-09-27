@@ -12,7 +12,6 @@ class Event < ApplicationRecord
 			self.lectures.where(allocated: false).each do |lecture|
 				lecture_minutes = lecture.lecture_minutes
 
-				#add_lecture_to_track(lecture, lecture_minutes, track_add);
 				if (@track_allocated_time + lecture_minutes.minutes <= Time.current.beginning_of_day + 12.hours) && (@track_allocated_time + lecture_minutes.minutes <= Time.current.beginning_of_day + 16.hours)
 					new_lecture = track_add.lectures_by_track.create!(lecture_id: lecture.id, start_time: @track_allocated_time)
 					@track_allocated_time += lecture_minutes.minutes
@@ -27,15 +26,6 @@ class Event < ApplicationRecord
 			end			
 
 			total_lectured = total_lectured - 1
-		end
-	end
-
-	def add_lecture_to_track(lecture, lecture_minutes, track_add)
-		if (@track_allocated_time + lecture_minutes.minutes <= Time.current.beginning_of_day + 12.hours) && (@track_allocated_time + lecture_minutes.minutes <= Time.current.beginning_of_day + 16.hours)
-			new_lecture = track_add.lectures_by_track.create!(lecture_id: lecture.id, start_time: @track_allocated_time)
-			@track_allocated_time += lecture_minutes.minutes
-			lecture.allocated = true 
-			lecture.save!
 		end
 	end
 
