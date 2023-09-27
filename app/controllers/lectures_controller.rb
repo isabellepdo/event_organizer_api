@@ -16,7 +16,6 @@ class LecturesController < ApplicationController
 
   # POST /lectures
   def create
-    byebug
     @lecture = Lecture.new(lecture_params)
 
     if @lecture.save
