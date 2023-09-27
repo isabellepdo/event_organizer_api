@@ -5,6 +5,7 @@ class CreateLectures < ActiveRecord::Migration[7.0]
       t.integer :lecture_minutes
       t.boolean :lightning
       t.integer :event_id
+      t.boolean :allocated
 
       t.timestamps
     end

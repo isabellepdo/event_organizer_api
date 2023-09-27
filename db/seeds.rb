@@ -23,5 +23,5 @@ array_lecture = [
   ['Otimizando CSS em aplicações Rails', 30, false]
 ]
 array_lecture.each do |lecture_data|
-  event.lectures.create(name: lecture_data[0], lecture_minutes: lecture_data[1], lightning: lecture_data[2])
+  event.lectures.create(name: lecture_data[0], lecture_minutes: lecture_data[1], lightning: lecture_data[2], allocated: false)
 end

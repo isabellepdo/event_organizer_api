@@ -1,4 +1,5 @@
 class LecturesController < ApplicationController
+
   before_action :set_lecture, only: %i[ show update destroy ]
 
   # GET /lectures
@@ -15,6 +16,7 @@ class LecturesController < ApplicationController
 
   # POST /lectures
   def create
+    byebug
     @lecture = Lecture.new(lecture_params)
 
     if @lecture.save

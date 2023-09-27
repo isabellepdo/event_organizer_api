@@ -88,3 +88,1727 @@ Migrating to CreateLectures (20230923184418)
   [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.8ms)[0m  [1m[34mSELECT pg_advisory_unlock(282685578413750925)[0m
   [1m[36mActiveRecord::SchemaMigration Pluck (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/rails/info" for ::1 at 2023-09-26 18:20:33 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 5074)
+
+
+Started GET "/rails/info/routes" for ::1 at 2023-09-26 18:20:33 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [50 times] (Duration: 9.5ms | Allocations: 8133)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 5.0ms | Allocations: 1881)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 19.9ms | Allocations: 15916)
+  Rendered layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 20.6ms | Allocations: 16356)
+Completed 200 OK in 32ms (Views: 25.6ms | ActiveRecord: 0.0ms | Allocations: 22320)
+
+
+Started GET "/rails/info/routes" for ::1 at 2023-09-26 18:26:59 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (Duration: 7.8ms | Allocations: 5817)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.3ms | Allocations: 188)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 10.1ms | Allocations: 9130)
+  Rendered layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 10.3ms | Allocations: 9209)
+Completed 200 OK in 11ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 9594)
+
+
+Started GET "/rails/info/routes" for ::1 at 2023-09-26 18:27:02 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (Duration: 12.7ms | Allocations: 5750)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 0.2ms | Allocations: 166)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 18.6ms | Allocations: 9026)
+  Rendered layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 19.1ms | Allocations: 9103)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 9418)
+
+
+Started GET "/rails/info/routes" for ::1 at 2023-09-26 18:27:17 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (Duration: 9.2ms | Allocations: 6343)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 2.1ms | Allocations: 1718)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 14.7ms | Allocations: 12671)
+  Rendered layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 15.5ms | Allocations: 13111)
+Completed 200 OK in 25ms (Views: 17.5ms | ActiveRecord: 0.0ms | Allocations: 20412)
+
+
+Started POST "/lectures" for ::1 at 2023-09-26 19:06:38 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+Completed 500 Internal Server Error in 55065ms (ActiveRecord: 0.0ms | Allocations: 134744)
+
+
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+app/controllers/lectures_controller.rb:19:in `create'
+Started GET "/" for ::1 at 2023-09-26 19:08:01 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 832)
+Completed 200 OK in 16ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 7331)
+
+
+Started POST "/lectures" for ::1 at 2023-09-26 19:09:03 -0300
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:09:10 -0300
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:09:57 -0300
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:10:02 -0300
+Processing by LecturesController#create as */*
+Completed 500 Internal Server Error in 189389ms (ActiveRecord: 0.0ms | Allocations: 7723)
+
+
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+app/controllers/lectures_controller.rb:19:in `create'
+Started POST "/lectures" for ::1 at 2023-09-26 19:13:14 -0300
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:20:01 -0300
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/lectures_controller.rb:2:in `<class:LecturesController>'
+app/controllers/lectures_controller.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:20:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/lectures_controller.rb:2:in `<class:LecturesController>'
+app/controllers/lectures_controller.rb:1:in `<main>'
+Started POST "/lectures" for ::1 at 2023-09-26 19:22:02 -0300
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+Started POST "/lectures?teste=1" for ::1 at 2023-09-26 19:22:35 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"teste"=>"1"}
+Completed 500 Internal Server Error in 133228ms (ActiveRecord: 0.0ms | Allocations: 112857)
+
+
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:28:20 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste "}
+Completed 500 Internal Server Error in 48226ms (ActiveRecord: 0.0ms | Allocations: 512463)
+
+
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:36:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste "}
+Completed 500 Internal Server Error in 31124ms (ActiveRecord: 0.0ms | Allocations: 152136)
+
+
+  
+NoMethodError (undefined method `attr_default' for Lecture:Class
+Did you mean?  attr_readonly):
+  
+app/models/lecture.rb:3:in `<class:Lecture>'
+app/models/lecture.rb:1:in `<main>'
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:37:35 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste "}
+Completed 500 Internal Server Error in 98799ms (ActiveRecord: 8.3ms | Allocations: 1249998)
+
+
+  
+ArgumentError (When assigning attributes, you must pass a hash as an argument, String passed.):
+  
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:40:18 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lecture"=>{"name"=>"teste "}}
+Completed 500 Internal Server Error in 35685ms (ActiveRecord: 7.3ms | Allocations: 949609)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/lectures_controller.rb:23:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:42:13 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{
+    "name":"teste",
+    "allocated": false, 
+    "event": "event", 
+    "lecture_minutes": 30)
+}
+Processing by LecturesController#create as */*
+Completed 400 Bad Request in 24541ms (ActiveRecord: 0.0ms | Allocations: 5833)
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (Error occurred while parsing request parameters):
+  
+app/controllers/lectures_controller.rb:52:in `lecture_params'
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:42:40 -0300
+Error occurred while parsing request parameters.
+Contents:
+
+{
+    "name":"teste",
+    "allocated": false, 
+    "event": "event", 
+    "lecture_minutes": 30)
+}
+Processing by LecturesController#create as */*
+Completed 400 Bad Request in 18373ms (ActiveRecord: 0.0ms | Allocations: 3563)
+
+
+  
+ActionDispatch::Http::Parameters::ParseError (Error occurred while parsing request parameters):
+  
+app/controllers/lectures_controller.rb:52:in `lecture_params'
+app/controllers/lectures_controller.rb:21:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:43:04 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "allocated"=>false, "event"=>"event", "lecture_minutes"=>30, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30}}
+Completed 500 Internal Server Error in 46328ms (ActiveRecord: 0.0ms | Allocations: 433809)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/lectures_controller.rb:23:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:45:04 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "allocated"=>false, "event"=>"event", "lecture_minutes"=>30, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30}}
+Completed 500 Internal Server Error in 118098ms (ActiveRecord: 7.1ms | Allocations: 311576)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/lectures_controller.rb:23:in `create'
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:47:14 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>true, "lecture_minutes"=>30, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>true}}
+Completed 500 Internal Server Error in 31369ms (ActiveRecord: 8.1ms | Allocations: 914225)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/lectures_controller.rb:23:in `create'
+Started POST "/events" for ::1 at 2023-09-26 19:49:24 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#create as */*
+Completed 500 Internal Server Error in 39663ms (ActiveRecord: 0.0ms | Allocations: 116027)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/events_controller.rb:19:in `create'
+Started POST "/events" for ::1 at 2023-09-26 19:52:23 -0300
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+Started POST "/events" for ::1 at 2023-09-26 19:52:49 -0300
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+Started GET "/rails/info" for ::1 at 2023-09-26 19:53:22 -0300
+Processing by Rails::InfoController#index as HTML
+Redirected to http://localhost:3000/rails/info/routes
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms | Allocations: 4202)
+
+
+Started GET "/rails/info/routes" for ::1 at 2023-09-26 19:53:22 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb
+  Rendering /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb [38 times] (Duration: 8.9ms | Allocations: 6348)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/actionpack-7.0.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (Duration: 3.2ms | Allocations: 1720)
+  Rendered /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/rails/info/routes.html.erb within layouts/application (Duration: 17.4ms | Allocations: 12687)
+  Rendered layout /home/intersol/.rvm/gems/ruby-3.0.2/gems/railties-7.0.8/lib/rails/templates/layouts/application.html.erb (Duration: 18.3ms | Allocations: 13127)
+Completed 200 OK in 26ms (Views: 21.7ms | ActiveRecord: 0.0ms | Allocations: 17122)
+
+
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 19:53:45 -0300
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 19:53:52 -0300
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento"}
+Completed 500 Internal Server Error in 59310ms (ActiveRecord: 0.0ms | Allocations: 6112)
+
+
+  
+SyntaxError (/home/intersol/Projetos/event_organizer_api/app/models/event.rb:33: formal argument cannot be an instance variable
+..._to_track(@track_allocated_time, lecture_minutes)
+...          ^~~~~~~~~~~~~~~~~~~~~
+):
+  
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/models/event.rb:33: formal argument cannot be an instance variable
+app/controllers/events_controller.rb:19:in `create'
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 19:56:25 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ArgumentError (Before process_action callback :verify_authenticity_token has not been defined):
+  
+app/controllers/events_controller.rb:3:in `<class:EventsController>'
+app/controllers/events_controller.rb:1:in `<main>'
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 19:56:55 -0300
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento", "event"=>{"name"=>"novo evento"}}
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (1.9ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "novo evento"], ["created_at", "2023-09-26 22:57:05.527816"], ["updated_at", "2023-09-26 22:57:05.527816"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Completed 201 Created in 17949ms (Views: 2.9ms | ActiveRecord: 14.1ms | Allocations: 1312403)
+
+
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 19:57:41 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>true, "lecture_minutes"=>30, "event_id"=>1, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>true, "event_id"=>1}}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Create (1.0ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "teste"], ["lecture_minutes", 30], ["lightning", true], ["event_id", 1], ["created_at", "2023-09-26 22:57:45.486742"], ["updated_at", "2023-09-26 22:57:45.486742"]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Update (1.2ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 1695686700], ["id", 1]]
+  ↳ app/models/lecture.rb:15:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+Completed 201 Created in 6135ms (Views: 1.7ms | ActiveRecord: 13.4ms | Allocations: 29809)
+
+
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 20:01:17 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>false, "lecture_minutes"=>30, "event_id"=>1, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>false, "event_id"=>1}}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Create (0.8ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "teste"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 1], ["created_at", "2023-09-26 23:01:23.336461"], ["updated_at", "2023-09-26 23:01:23.336461"]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+Completed 201 Created in 6141ms (Views: 0.6ms | ActiveRecord: 13.4ms | Allocations: 13129)
+
+
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 20:01:31 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>true, "lecture_minutes"=>30, "event_id"=>1, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>true, "event_id"=>1}}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mEvent Load (0.8ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Create (1.1ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["name", "teste"], ["lecture_minutes", 30], ["lightning", true], ["event_id", 1], ["created_at", "2023-09-26 23:01:34.955558"], ["updated_at", "2023-09-26 23:01:34.955558"]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Update (1.2ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 3]]
+  ↳ app/models/lecture.rb:14:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+Completed 201 Created in 5452ms (Views: 1.4ms | ActiveRecord: 5.6ms | Allocations: 10541)
+
+
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 20:02:15 -0300
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento", "event"=>{"name"=>"novo evento"}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "novo evento"], ["created_at", "2023-09-26 23:02:20.705447"], ["updated_at", "2023-09-26 23:02:20.705447"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Completed 201 Created in 4725ms (Views: 0.5ms | ActiveRecord: 7.6ms | Allocations: 7038)
+
+
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 20:03:07 -0300
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento", "event"=>{"name"=>"novo evento"}}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (1.1ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "novo evento"], ["created_at", "2023-09-26 23:03:10.932956"], ["updated_at", "2023-09-26 23:03:10.932956"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Completed 201 Created in 2970ms (Views: 1.6ms | ActiveRecord: 9.6ms | Allocations: 7038)
+
+
+Started GET "/events/1/organizer_event(.:format)" for ::1 at 2023-09-26 20:04:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/events/1/organizer_event(.:format)"):
+  
+Started GET "/events/1/organizer_event(.:format)" for ::1 at 2023-09-26 20:04:47 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/events/1/organizer_event(.:format)"):
+  
+Started GET "/events/1/organizer_event(.:format)" for ::1 at 2023-09-26 20:06:07 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/events/1/organizer_event(.:format)"):
+  
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:06:30 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"event_id"=>"1"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 691)
+
+
+  
+NoMethodError (undefined method `organizer_event' for nil:NilClass):
+  
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:09:24 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"event_id"=>"1"}
+Completed 500 Internal Server Error in 24753ms (ActiveRecord: 0.0ms | Allocations: 5454)
+
+
+  
+NoMethodError (undefined method `organizer_event' for nil:NilClass):
+  
+app/controllers/events_controller.rb:45:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:10:24 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"event_id"=>"1"}
+Completed 404 Not Found in 5ms (ActiveRecord: 1.4ms | Allocations: 3534)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event without an ID):
+  
+app/controllers/events_controller.rb:54:in `set_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:10:55 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"event_id"=>"1"}
+Completed 404 Not Found in 6ms (ActiveRecord: 1.8ms | Allocations: 5048)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event without an ID):
+  
+app/controllers/events_controller.rb:54:in `set_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:12:28 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 19699)
+
+
+  
+NoMethodError (undefined method `organizer_event' for nil:NilClass):
+  
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:12:48 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 12404ms (ActiveRecord: 0.0ms | Allocations: 89019)
+
+
+  
+NoMethodError (undefined method `organizer_event' for nil:NilClass):
+  
+app/controllers/events_controller.rb:45:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:13:26 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.9ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 5.2ms | Allocations: 48317)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:7:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:13:56 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:55:in `set_event'
+  [1m[36mLecture Count (1.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Count (2.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 453014ms (ActiveRecord: 9.2ms | Allocations: 99524)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:7:in `organizer_event'
+app/controllers/events_controller.rb:45:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:21:36 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 3.9ms | Allocations: 9102)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:7:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:22:18 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 3.8ms | Allocations: 8771)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:7:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:22:50 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:10:in `organizer_event'
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 5.0ms | Allocations: 24382)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:10:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:23:14 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Count (1.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:11:in `organizer_event'
+Completed 500 Internal Server Error in 21438ms (ActiveRecord: 5.8ms | Allocations: 29041)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:23:58 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:11:in `organizer_event'
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 4.6ms | Allocations: 11730)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:24:34 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 4.9ms | Allocations: 15988)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column lectures.allocated does not exist
+LINE 1: ...M "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"...
+                                                             ^
+):
+  
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+  [1m[35m (25.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (17.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(282685578413750925)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20230923180103)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.7ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180103"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateTracks (20230923180309)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.9ms)[0m  [1m[35mCREATE TABLE "tracks" ("id" bigserial primary key, "name" character varying, "event_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180309"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLectureByTracks (20230923180412)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "lecture_by_tracks" ("id" bigserial primary key, "lecture_id" integer, "track_id" integer, "start_time" time, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180412"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLectures (20230923184418)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.5ms)[0m  [1m[35mCREATE TABLE "lectures" ("id" bigserial primary key, "name" character varying, "lecture_minutes" integer, "lightning" boolean, "event_id" integer, "allocated" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923184418"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-09-26 23:27:10.989985"], ["updated_at", "2023-09-26 23:27:10.989985"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_advisory_unlock(282685578413750925)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 20:27:45 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento", "event"=>{"name"=>"novo evento"}}
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (1.0ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "novo evento"], ["created_at", "2023-09-26 23:27:51.468083"], ["updated_at", "2023-09-26 23:27:51.468083"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Completed 201 Created in 6059ms (Views: 0.7ms | ActiveRecord: 10.4ms | Allocations: 128026)
+
+
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 20:27:57 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>true, "lecture_minutes"=>30, "event_id"=>1, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>true, "event_id"=>1}}
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Create (0.5ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "teste"], ["lecture_minutes", 30], ["lightning", true], ["event_id", 1], ["allocated", nil], ["created_at", "2023-09-26 23:28:02.373269"], ["updated_at", "2023-09-26 23:28:02.373269"]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Update (0.4ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 1]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+Completed 201 Created in 4616ms (Views: 0.6ms | ActiveRecord: 7.0ms | Allocations: 26909)
+
+
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:28:06 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.6ms | Allocations: 4388)
+
+
+  
+NameError (Rails couldn't find a valid model for Track association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.):
+  
+app/models/event.rb:10:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:33:48 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 4.9ms | Allocations: 12189)
+
+
+  
+NameError (Rails couldn't find a valid model for Track association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.):
+  
+app/models/event.rb:37:in `track_to_use'
+app/models/event.rb:10:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:34:02 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+Completed 500 Internal Server Error in 15506ms (ActiveRecord: 5.4ms | Allocations: 15128)
+
+
+  
+NameError (Rails couldn't find a valid model for Track association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.):
+  
+app/models/event.rb:38:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:34:51 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Load (0.8ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["event_id", 1], ["LIMIT", 11]]
+  ↳ app/models/event.rb:11:in `organizer_event'
+Completed 500 Internal Server Error in 158539ms (ActiveRecord: 4.9ms | Allocations: 39152)
+
+
+  
+NameError (Rails couldn't find a valid model for Track association. Please provide the :class_name option on the association declaration. If :class_name is already provided, make sure it's an ActiveRecord::Base subclass.):
+  
+app/models/event.rb:38:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:37:36 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mLecture Load (0.7ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["event_id", 1], ["LIMIT", 11]]
+  ↳ app/models/event.rb:11:in `organizer_event'
+  [1m[36mTrack Exists? (1.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (1.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+Completed 422 Unprocessable Entity in 162729ms (ActiveRecord: 18.3ms | Allocations: 167015)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Event must exist, Event can't be blank):
+  
+app/models/event.rb:40:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:40:21 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.4ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Load (0.7ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 /* loading for inspect */ LIMIT $2[0m  [["event_id", 1], ["LIMIT", 11]]
+  ↳ app/models/event.rb:11:in `organizer_event'
+  [1m[36mTrack Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+Completed 422 Unprocessable Entity in 11335ms (ActiveRecord: 14.9ms | Allocations: 20855)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Event must exist, Event can't be blank):
+  
+app/models/event.rb:40:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+  [1m[35m (15.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (16.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT pg_try_advisory_lock(282685578413750925)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateEvents (20230923180103)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (15.4ms)[0m  [1m[35mCREATE TABLE "events" ("id" bigserial primary key, "name" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180103"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateTracks (20230923180309)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (12.8ms)[0m  [1m[35mCREATE TABLE "tracks" ("id" bigserial primary key, "name" character varying, "event_id" integer, "finished" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180309"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLectureByTracks (20230923180412)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "lecture_by_tracks" ("id" bigserial primary key, "lecture_id" integer, "track_id" integer, "start_time" time, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923180412"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateLectures (20230923184418)
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (14.7ms)[0m  [1m[35mCREATE TABLE "lectures" ("id" bigserial primary key, "name" character varying, "lecture_minutes" integer, "lightning" boolean, "event_id" integer, "allocated" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20230923184418"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (0.6ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2023-09-26 23:42:45.579627"], ["updated_at", "2023-09-26 23:42:45.579627"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(282685578413750925)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:42:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+Completed 404 Not Found in 11ms (ActiveRecord: 3.5ms | Allocations: 6654)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Event with 'id'=1):
+  
+app/controllers/events_controller.rb:54:in `set_event'
+Started POST "/events?name=novo%20evento" for ::1 at 2023-09-26 20:43:00 -0300
+Processing by EventsController#create as */*
+  Parameters: {"name"=>"novo evento", "event"=>{"name"=>"novo evento"}}
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mEvent Create (1.7ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "novo evento"], ["created_at", "2023-09-26 23:43:09.173694"], ["updated_at", "2023-09-26 23:43:09.173694"]]
+  ↳ app/controllers/events_controller.rb:21:in `create'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/events_controller.rb:21:in `create'
+Completed 201 Created in 8901ms (Views: 1.7ms | ActiveRecord: 4.4ms | Allocations: 127150)
+
+
+Started POST "/lectures?name=teste%20" for ::1 at 2023-09-26 20:43:12 -0300
+Processing by LecturesController#create as */*
+  Parameters: {"name"=>"teste ", "lightning"=>true, "lecture_minutes"=>30, "event_id"=>1, "lecture"=>{"name"=>"teste ", "lecture_minutes"=>30, "lightning"=>true, "event_id"=>1}}
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mEvent Load (1.0ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Create (1.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "teste"], ["lecture_minutes", 30], ["lightning", true], ["event_id", 1], ["allocated", nil], ["created_at", "2023-09-26 23:43:13.767563"], ["updated_at", "2023-09-26 23:43:13.767563"]]
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+  [1m[36mLecture Update (0.6ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 1]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/lectures_controller.rb:22:in `create'
+Completed 201 Created in 1563ms (Views: 0.6ms | ActiveRecord: 11.0ms | Allocations: 27998)
+
+
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:43:17 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.6ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (1.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+Completed 422 Unprocessable Entity in 3898ms (ActiveRecord: 8.4ms | Allocations: 30877)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Event must exist, Event can't be blank):
+  
+app/models/event.rb:40:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:43:40 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (0.8ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+Completed 422 Unprocessable Entity in 40332ms (ActiveRecord: 2.5ms | Allocations: 11633)
+
+
+  
+ActiveRecord::RecordInvalid (Validation failed: Event must exist, Event can't be blank):
+  
+app/models/event.rb:40:in `track_to_use'
+app/models/event.rb:11:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:44:26 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (1.0ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTrack Create (1.5ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:44:29.818521"], ["updated_at", "2023-09-26 23:44:29.818521"]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (8.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mLecture Load (0.8ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:13:in `organizer_event'
+Completed 422 Unprocessable Entity in 6166ms (Views: 0.6ms | ActiveRecord: 23.5ms | Allocations: 23671)
+
+
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:45:59 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mTrack Load (0.3ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mCACHE Track Load (0.0ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:42:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 422 Unprocessable Entity in 27ms (Views: 0.2ms | ActiveRecord: 6.4ms | Allocations: 16609)
+
+
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:48:08 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mTrack Load (0.3ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mCACHE Track Load (0.0ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:42:in `track_to_use'
+  [1m[36mLecture Load (0.3ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 2.7ms | Allocations: 5917)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/models/event.rb:27:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:48:48 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Load (0.2ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mCACHE Track Load (0.0ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:43:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 89221ms (ActiveRecord: 7.3ms | Allocations: 26469)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/models/event.rb:28:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:50:20 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mTrack Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:50:20.382243"], ["updated_at", "2023-09-26 23:50:20.382243"]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 50ms (ActiveRecord: 10.0ms | Allocations: 21405)
+
+
+  
+NoMethodError (undefined method `lectures_by_track' for Tue, 26 Sep 2023 09:00:00.000000000 UTC +00:00:ActiveSupport::TimeWithZone):
+  
+app/models/event.rb:28:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:50:57 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:50:58.051584"], ["updated_at", "2023-09-26 23:50:58.051584"]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mLecture Load (0.3ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 66003ms (ActiveRecord: 9.4ms | Allocations: 29333)
+
+
+  
+NoMethodError (undefined method `lectures_by_track' for Tue, 26 Sep 2023 09:00:00.000000000 UTC +00:00:ActiveSupport::TimeWithZone):
+  
+app/models/event.rb:29:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:53:02 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.4ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:53:02.393509"], ["updated_at", "2023-09-26 23:53:02.393509"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 18712ms (ActiveRecord: 10.1ms | Allocations: 36086)
+
+
+  
+NoMethodError (undefined method `lectures_by_track' for Tue, 26 Sep 2023 09:00:00.000000000 UTC +00:00:ActiveSupport::TimeWithZone):
+  
+app/models/event.rb:29:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:53:58 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:53:58.332900"], ["updated_at", "2023-09-26 23:53:58.332900"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 14129ms (ActiveRecord: 9.8ms | Allocations: 29607)
+
+
+  
+NoMethodError (undefined method `lectures_by_track' for Tue, 26 Sep 2023 09:00:00.000000000 UTC +00:00:ActiveSupport::TimeWithZone):
+  
+app/models/event.rb:29:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:54:47 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.2ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:54:47.585438"], ["updated_at", "2023-09-26 23:54:47.585438"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (9.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 158232ms (ActiveRecord: 10.9ms | Allocations: 31496)
+
+
+  
+NoMethodError (undefined method `lectures_by_track' for Tue, 26 Sep 2023 09:00:00.000000000 UTC +00:00:ActiveSupport::TimeWithZone):
+  
+app/models/event.rb:29:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+Started GET "/events/1/organizer_event" for ::1 at 2023-09-26 20:57:53 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 1]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.2ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 1], ["finished", false], ["created_at", "2023-09-26 23:57:53.926203"], ["updated_at", "2023-09-26 23:57:53.926203"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.3ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ (byebug):1:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.4ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ (byebug):1:in `add_lecture_to_track'
+  [1m[36mLectureByTrack Create (0.8ms)[0m  [1m[32mINSERT INTO "lecture_by_tracks" ("lecture_id", "track_id", "start_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["lecture_id", 1], ["track_id", 7], ["start_time", "09:00:00"], ["created_at", "2023-09-26 23:58:02.683479"], ["updated_at", "2023-09-26 23:58:02.683479"]]
+  ↳ (byebug):1:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ (byebug):1:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.7ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mLectureByTrack Create (0.9ms)[0m  [1m[32mINSERT INTO "lecture_by_tracks" ("lecture_id", "track_id", "start_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["lecture_id", 1], ["track_id", 7], ["start_time", "09:00:00"], ["created_at", "2023-09-26 23:58:05.157482"], ["updated_at", "2023-09-26 23:58:05.157482"]]
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mLecture Update (1.0ms)[0m  [1m[33mUPDATE "lectures" SET "allocated" = $1, "updated_at" = $2 WHERE "lectures"."id" = $3[0m  [["allocated", true], ["updated_at", "2023-09-26 23:58:07.178783"], ["id", 1]]
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.6ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 1], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 422 Unprocessable Entity in 13293ms (Views: 0.5ms | ActiveRecord: 26.5ms | Allocations: 52097)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Event"], ["created_at", "2023-09-26 23:59:32.938501"], ["updated_at", "2023-09-26 23:59:32.938501"]]
+  [1m[36mTRANSACTION (10.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Diminuindo tempo de execução de testes em aplicações Rails enterprise"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:32.970857"], ["updated_at", "2023-09-26 23:59:32.970857"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.6ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Reinventando a roda em ASP clássico"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:32.977340"], ["updated_at", "2023-09-26 23:59:32.977340"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Apresentando Lua para as massas"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:32.985896"], ["updated_at", "2023-09-26 23:59:32.985896"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros de Ruby oriundos de versões erradas de gems"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:32.992111"], ["updated_at", "2023-09-26 23:59:32.992111"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros comuns em Ruby"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:32.997577"], ["updated_at", "2023-09-26 23:59:32.997577"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Rails para usuários de Django"], ["lecture_minutes", nil], ["lightning", true], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.002414"], ["updated_at", "2023-09-26 23:59:33.002414"]]
+  [1m[36mLecture Update (0.3ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 7]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Trabalho remoto: prós e cons"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.007921"], ["updated_at", "2023-09-26 23:59:33.007921"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Desenvolvimento orientado a gambiarras"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.041078"], ["updated_at", "2023-09-26 23:59:33.041078"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.6ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Aplicações isomórficas: o futuro (que talvez nunca chegaremos)"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.078707"], ["updated_at", "2023-09-26 23:59:33.078707"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Codifique menos, Escreva mais!"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.087328"], ["updated_at", "2023-09-26 23:59:33.087328"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Programação em par"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.093831"], ["updated_at", "2023-09-26 23:59:33.093831"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "A mágica do Rails: como ser mais produtivo"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.099167"], ["updated_at", "2023-09-26 23:59:33.099167"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby on Rails: Por que devemos deixá-lo para trás"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.104013"], ["updated_at", "2023-09-26 23:59:33.104013"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Clojure engoliu Scala: migrando minha aplicação"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.109327"], ["updated_at", "2023-09-26 23:59:33.109327"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ensinando programação nas grotas de Maceió"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.114269"], ["updated_at", "2023-09-26 23:59:33.114269"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby vs. Clojure para desenvolvimento backend"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.119498"], ["updated_at", "2023-09-26 23:59:33.119498"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Manutenção de aplicações legadas em Ruby on Rails"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.125128"], ["updated_at", "2023-09-26 23:59:33.125128"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Um mundo sem StackOverflow"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.130298"], ["updated_at", "2023-09-26 23:59:33.130298"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Otimizando CSS em aplicações Rails"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 2], ["allocated", nil], ["created_at", "2023-09-26 23:59:33.135027"], ["updated_at", "2023-09-26 23:59:33.135027"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/events/2/organizer_event" for ::1 at 2023-09-26 21:00:19 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 2], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 2], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 2]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 2], ["finished", false], ["created_at", "2023-09-27 00:00:19.214119"], ["updated_at", "2023-09-27 00:00:19.214119"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (13.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.2ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 2], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 422 Unprocessable Entity in 78ms (Views: 0.2ms | ActiveRecord: 20.7ms | Allocations: 70160)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.5ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Event"], ["created_at", "2023-09-27 00:01:46.563001"], ["updated_at", "2023-09-27 00:01:46.563001"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Diminuindo tempo de execução de testes em aplicações Rails enterprise"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.587185"], ["updated_at", "2023-09-27 00:01:46.587185"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (1.0ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Reinventando a roda em ASP clássico"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.593713"], ["updated_at", "2023-09-27 00:01:46.593713"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.8ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Apresentando Lua para as massas"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.605180"], ["updated_at", "2023-09-27 00:01:46.605180"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.7ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros de Ruby oriundos de versões erradas de gems"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.616405"], ["updated_at", "2023-09-27 00:01:46.616405"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.7ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros comuns em Ruby"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.627075"], ["updated_at", "2023-09-27 00:01:46.627075"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.5ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Rails para usuários de Django"], ["lecture_minutes", nil], ["lightning", true], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.637686"], ["updated_at", "2023-09-27 00:01:46.637686"]]
+  [1m[36mLecture Update (0.6ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 26]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Trabalho remoto: prós e cons"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.648990"], ["updated_at", "2023-09-27 00:01:46.648990"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Desenvolvimento orientado a gambiarras"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.687247"], ["updated_at", "2023-09-27 00:01:46.687247"]]
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Aplicações isomórficas: o futuro (que talvez nunca chegaremos)"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.728001"], ["updated_at", "2023-09-27 00:01:46.728001"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Codifique menos, Escreva mais!"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.734328"], ["updated_at", "2023-09-27 00:01:46.734328"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Programação em par"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.740258"], ["updated_at", "2023-09-27 00:01:46.740258"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "A mágica do Rails: como ser mais produtivo"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.745731"], ["updated_at", "2023-09-27 00:01:46.745731"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby on Rails: Por que devemos deixá-lo para trás"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.751557"], ["updated_at", "2023-09-27 00:01:46.751557"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Clojure engoliu Scala: migrando minha aplicação"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.757078"], ["updated_at", "2023-09-27 00:01:46.757078"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ensinando programação nas grotas de Maceió"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.761941"], ["updated_at", "2023-09-27 00:01:46.761941"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby vs. Clojure para desenvolvimento backend"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.767424"], ["updated_at", "2023-09-27 00:01:46.767424"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Manutenção de aplicações legadas em Ruby on Rails"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.772948"], ["updated_at", "2023-09-27 00:01:46.772948"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.5ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Um mundo sem StackOverflow"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.778840"], ["updated_at", "2023-09-27 00:01:46.778840"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Otimizando CSS em aplicações Rails"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 3], ["allocated", false], ["created_at", "2023-09-27 00:01:46.784402"], ["updated_at", "2023-09-27 00:01:46.784402"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/events/3/organizer_event" for ::1 at 2023-09-26 21:01:58 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.5ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 3], ["LIMIT", 1]]
+  ↳ app/models/event.rb:39:in `track_to_use'
+  [1m[36mTrack Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 3]]
+  ↳ app/models/event.rb:40:in `track_to_use'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 3], ["finished", false], ["created_at", "2023-09-27 00:01:58.540259"], ["updated_at", "2023-09-27 00:01:58.540259"]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.3ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.5ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mLectureByTrack Create (0.6ms)[0m  [1m[32mINSERT INTO "lecture_by_tracks" ("lecture_id", "track_id", "start_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["lecture_id", 21], ["track_id", 9], ["start_time", "09:00:00"], ["created_at", "2023-09-27 00:02:07.926847"], ["updated_at", "2023-09-27 00:02:07.926847"]]
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:29:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mLecture Update (0.9ms)[0m  [1m[33mUPDATE "lectures" SET "allocated" = $1, "updated_at" = $2 WHERE "lectures"."id" = $3[0m  [["allocated", true], ["updated_at", "2023-09-27 00:02:09.087502"], ["id", 21]]
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:33:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.9ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.1ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 422 Unprocessable Entity in 10705ms (Views: 0.2ms | ActiveRecord: 35.1ms | Allocations: 257275)
+
+
+Started GET "/events/3/organizer_event" for ::1 at 2023-09-26 21:04:15 -0300
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.4ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 3], ["LIMIT", 1]]
+  ↳ app/models/event.rb:36:in `track_to_use'
+  [1m[36mTrack Load (0.2ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 3], ["LIMIT", 1]]
+  ↳ app/models/event.rb:36:in `track_to_use'
+  [1m[36mCACHE Track Load (0.0ms)[0m  [1m[34mSELECT "tracks".* FROM "tracks" WHERE "tracks"."event_id" = $1 ORDER BY "tracks"."id" DESC LIMIT $2[0m  [["event_id", 3], ["LIMIT", 1]]
+  ↳ app/models/event.rb:41:in `track_to_use'
+  [1m[36mLecture Load (0.4ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 3], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 500 Internal Server Error in 34ms (ActiveRecord: 8.4ms | Allocations: 19344)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/models/event.rb:27:in `add_lecture_to_track'
+app/models/event.rb:15:in `block in organizer_event'
+app/models/event.rb:12:in `organizer_event'
+app/controllers/events_controller.rb:44:in `organizer_event'
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.4ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Event"], ["created_at", "2023-09-27 00:04:28.346917"], ["updated_at", "2023-09-27 00:04:28.346917"]]
+  [1m[36mTRANSACTION (9.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Diminuindo tempo de execução de testes em aplicações Rails enterprise"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.379280"], ["updated_at", "2023-09-27 00:04:28.379280"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Reinventando a roda em ASP clássico"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.384171"], ["updated_at", "2023-09-27 00:04:28.384171"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Apresentando Lua para as massas"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.388670"], ["updated_at", "2023-09-27 00:04:28.388670"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros de Ruby oriundos de versões erradas de gems"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.393081"], ["updated_at", "2023-09-27 00:04:28.393081"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros comuns em Ruby"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.397618"], ["updated_at", "2023-09-27 00:04:28.397618"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Rails para usuários de Django"], ["lecture_minutes", nil], ["lightning", true], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.402134"], ["updated_at", "2023-09-27 00:04:28.402134"]]
+  [1m[36mLecture Update (0.3ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 45]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Trabalho remoto: prós e cons"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.407639"], ["updated_at", "2023-09-27 00:04:28.407639"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.6ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Desenvolvimento orientado a gambiarras"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.442352"], ["updated_at", "2023-09-27 00:04:28.442352"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Aplicações isomórficas: o futuro (que talvez nunca chegaremos)"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.482395"], ["updated_at", "2023-09-27 00:04:28.482395"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Codifique menos, Escreva mais!"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.488133"], ["updated_at", "2023-09-27 00:04:28.488133"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Programação em par"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.493737"], ["updated_at", "2023-09-27 00:04:28.493737"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "A mágica do Rails: como ser mais produtivo"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.499333"], ["updated_at", "2023-09-27 00:04:28.499333"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby on Rails: Por que devemos deixá-lo para trás"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.504877"], ["updated_at", "2023-09-27 00:04:28.504877"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Clojure engoliu Scala: migrando minha aplicação"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.509911"], ["updated_at", "2023-09-27 00:04:28.509911"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ensinando programação nas grotas de Maceió"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.514543"], ["updated_at", "2023-09-27 00:04:28.514543"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby vs. Clojure para desenvolvimento backend"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.518927"], ["updated_at", "2023-09-27 00:04:28.518927"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Manutenção de aplicações legadas em Ruby on Rails"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.523517"], ["updated_at", "2023-09-27 00:04:28.523517"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Um mundo sem StackOverflow"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.528981"], ["updated_at", "2023-09-27 00:04:28.528981"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Otimizando CSS em aplicações Rails"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 4], ["allocated", false], ["created_at", "2023-09-27 00:04:28.534670"], ["updated_at", "2023-09-27 00:04:28.534670"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/events/4/organizer_event" for ::1 at 2023-09-26 21:04:49 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 4], ["LIMIT", 1]]
+  ↳ app/models/event.rb:36:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 4]]
+  ↳ app/models/event.rb:37:in `track_to_use'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 4], ["finished", false], ["created_at", "2023-09-27 00:04:50.086768"], ["updated_at", "2023-09-27 00:04:50.086768"]]
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mTRANSACTION (10.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:38:in `track_to_use'
+  [1m[36mLecture Load (0.8ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:28:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.3ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  ↳ app/models/event.rb:28:in `add_lecture_to_track'
+  [1m[36mLectureByTrack Create (0.5ms)[0m  [1m[32mINSERT INTO "lecture_by_tracks" ("lecture_id", "track_id", "start_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["lecture_id", 40], ["track_id", 10], ["start_time", "09:00:00"], ["created_at", "2023-09-27 00:04:50.151951"], ["updated_at", "2023-09-27 00:04:50.151951"]]
+  ↳ app/models/event.rb:28:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:28:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:31:in `add_lecture_to_track'
+  [1m[36mLecture Update (0.5ms)[0m  [1m[33mUPDATE "lectures" SET "allocated" = $1, "updated_at" = $2 WHERE "lectures"."id" = $3[0m  [["allocated", true], ["updated_at", "2023-09-27 00:04:50.156857"], ["id", 40]]
+  ↳ app/models/event.rb:31:in `add_lecture_to_track'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:31:in `add_lecture_to_track'
+  [1m[36mLecture Load (0.4ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mCACHE Lecture Load (0.0ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 4], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+Completed 422 Unprocessable Entity in 198ms (Views: 0.2ms | ActiveRecord: 30.6ms | Allocations: 152972)
+
+
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mEvent Create (0.4ms)[0m  [1m[32mINSERT INTO "events" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "Test Event"], ["created_at", "2023-09-27 00:07:43.108804"], ["updated_at", "2023-09-27 00:07:43.108804"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Diminuindo tempo de execução de testes em aplicações Rails enterprise"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.131529"], ["updated_at", "2023-09-27 00:07:43.131529"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Reinventando a roda em ASP clássico"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.136733"], ["updated_at", "2023-09-27 00:07:43.136733"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Apresentando Lua para as massas"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.141218"], ["updated_at", "2023-09-27 00:07:43.141218"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros de Ruby oriundos de versões erradas de gems"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.145650"], ["updated_at", "2023-09-27 00:07:43.145650"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Erros comuns em Ruby"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.150400"], ["updated_at", "2023-09-27 00:07:43.150400"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Rails para usuários de Django"], ["lecture_minutes", nil], ["lightning", true], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.155046"], ["updated_at", "2023-09-27 00:07:43.155046"]]
+  [1m[36mLecture Update (0.4ms)[0m  [1m[33mUPDATE "lectures" SET "lecture_minutes" = $1 WHERE "lectures"."id" = $2[0m  [["lecture_minutes", 5], ["id", 64]]
+  ↳ app/models/lecture.rb:12:in `set_lecture_minutes'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Trabalho remoto: prós e cons"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.161278"], ["updated_at", "2023-09-27 00:07:43.161278"]]
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (9.6ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Desenvolvimento orientado a gambiarras"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.202457"], ["updated_at", "2023-09-27 00:07:43.202457"]]
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Aplicações isomórficas: o futuro (que talvez nunca chegaremos)"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.241227"], ["updated_at", "2023-09-27 00:07:43.241227"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Codifique menos, Escreva mais!"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.247458"], ["updated_at", "2023-09-27 00:07:43.247458"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Programação em par"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.252663"], ["updated_at", "2023-09-27 00:07:43.252663"]]
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "A mágica do Rails: como ser mais produtivo"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.258207"], ["updated_at", "2023-09-27 00:07:43.258207"]]
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby on Rails: Por que devemos deixá-lo para trás"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.263808"], ["updated_at", "2023-09-27 00:07:43.263808"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Clojure engoliu Scala: migrando minha aplicação"], ["lecture_minutes", 45], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.268727"], ["updated_at", "2023-09-27 00:07:43.268727"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.4ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ensinando programação nas grotas de Maceió"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.274574"], ["updated_at", "2023-09-27 00:07:43.274574"]]
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.3ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Ruby vs. Clojure para desenvolvimento backend"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.280178"], ["updated_at", "2023-09-27 00:07:43.280178"]]
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.6ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Manutenção de aplicações legadas em Ruby on Rails"], ["lecture_minutes", 60], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.284839"], ["updated_at", "2023-09-27 00:07:43.284839"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Um mundo sem StackOverflow"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.290307"], ["updated_at", "2023-09-27 00:07:43.290307"]]
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mLecture Create (0.2ms)[0m  [1m[32mINSERT INTO "lectures" ("name", "lecture_minutes", "lightning", "event_id", "allocated", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7) RETURNING "id"[0m  [["name", "Otimizando CSS em aplicações Rails"], ["lecture_minutes", 30], ["lightning", false], ["event_id", 5], ["allocated", false], ["created_at", "2023-09-27 00:07:43.294701"], ["updated_at", "2023-09-27 00:07:43.294701"]]
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/events/5/organizer_event" for ::1 at 2023-09-26 21:07:51 -0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by EventsController#organizer_event as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events" WHERE "events"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:54:in `set_event'
+  [1m[36mLecture Count (0.3ms)[0m  [1m[34mSELECT COUNT(*) FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 5], ["allocated", false]]
+  ↳ app/models/event.rb:7:in `organizer_event'
+  [1m[36mTrack Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "tracks" WHERE "tracks"."event_id" = $1 LIMIT $2[0m  [["event_id", 5], ["LIMIT", 1]]
+  ↳ app/models/event.rb:43:in `track_to_use'
+  [1m[36mTrack Count (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "tracks" WHERE "tracks"."event_id" = $1[0m  [["event_id", 5]]
+  ↳ app/models/event.rb:44:in `track_to_use'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:45:in `track_to_use'
+  [1m[36mTrack Create (0.3ms)[0m  [1m[32mINSERT INTO "tracks" ("name", "event_id", "finished", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Track 1"], ["event_id", 5], ["finished", false], ["created_at", "2023-09-27 00:07:52.050229"], ["updated_at", "2023-09-27 00:07:52.050229"]]
+  ↳ app/models/event.rb:45:in `track_to_use'
+  [1m[36mTRANSACTION (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:45:in `track_to_use'
+  [1m[36mLecture Load (0.6ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."event_id" = $1 AND "lectures"."allocated" = $2[0m  [["event_id", 5], ["allocated", false]]
+  ↳ app/models/event.rb:12:in `organizer_event'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:17:in `block in organizer_event'
+  [1m[36mLecture Load (0.6ms)[0m  [1m[34mSELECT "lectures".* FROM "lectures" WHERE "lectures"."id" = $1 LIMIT $2[0m  [["id", 64], ["LIMIT", 1]]
+  ↳ app/models/event.rb:17:in `block in organizer_event'
+  [1m[36mLectureByTrack Create (0.5ms)[0m  [1m[32mINSERT INTO "lecture_by_tracks" ("lecture_id", "track_id", "start_time", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["lecture_id", 64], ["track_id", 11], ["start_time", "09:00:00"], ["created_at", "2023-09-27 00:07:52.121618"], ["updated_at", "2023-09-27 00:07:52.121618"]]
+  ↳ app/models/event.rb:17:in `block in organizer_event'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:17:in `block in organizer_event'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/event.rb:20:in `block in organizer_event'
+  [1m[36mLecture Update (0.3ms)[0m  [1m[33mUPDATE "lectures" SET "allocated" = $1, "updated_at" = $2 WHERE "lectures"."id" = $3[0m  [["allocated", true], ["updated_at", "2023-09-27 00:07:52.126362"], ["id", 64]]
+  ↳ app/models/event.rb:20:in `block in organizer_event'
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/models/event.rb:20:in `block in organizer_event'
+Completed 422 Unprocessable Entity in 143ms (Views: 0.2ms | ActiveRecord: 29.8ms | Allocations: 107831)
+
+

@@ -1,5 +1,5 @@
 class EventsController < ApplicationController
-	before_action :set_event, only: %i[ show update destroy ]
+	before_action :set_event, only: %i[ show update destroy organizer_event]
 
 	# GET /events
 	def index
@@ -15,6 +15,7 @@ class EventsController < ApplicationController
 
 	# POST /events
 	def create
+		byebug
 		@event = Event.new(event_params)
 
 		if @event.save
